@@ -34,9 +34,9 @@ const Footer = () => {
   };
 
   return (
-    <div className="flex flex-col gap-5 px-2 xs:px-4 rounded-t-[20px] dark:bg-[#383535] bg-[#D9D9D9] sm:rounded-[20px] py-10 md:px-5 lg:px-10 md:flex md:flex-col  md:gap-6">
+    <div className="min-h-[40vh] h-auto flex flex-col  gap-5 px-2 xs:px-4 rounded-t-[20px] dark:bg-[#383535] bg-[#D9D9D9]  sm:rounded-[20px] py-10 md:px-5 lg:px-10 md:flex md:flex-col  md:gap-6">
       {/* above 768px */}
-      <div className="top hidden  md:flex items-centers justify-between md:gap-5 lg:gap-0">
+      <div className="top hidden md:flex items-centers justify-between md:gap-5 lg:gap-0">
         <div className="left-part  flex flex-col  items-start justify-center gap-4">
           <form onSubmit={handleSubscribe} className=" input-email flex gap-5">
             {isSubscribed ? (
@@ -119,7 +119,7 @@ const Footer = () => {
       </div>
       <div className="bottom hidden md:flex flex-col items-start justify-center">
         <span className="dark:text-white text-[14px]">LET`S WORK ON...</span>
-        <p className="dark:text-[#635C5C] text-[#EAEAEA] md:text-[clamp(5.6rem,11.9vw,10rem)] lg:text-[clamp(7rem,12vw,10rem)] xl:text-[clamp(160px,12.6vw,18vw)] font-[800] leading-[120px] p-0 m-0 inline-block">
+        <p className="dark:text-[#635C5C] text-[#EAEAEA]  md:text-[clamp(5.6rem,11.9vw,10rem)] lg:text-[clamp(7rem,12vw,10rem)] xl:text-[clamp(7rem,12.6vw,18rem)]  font-[800] leading-[0.8] p-0 m-0 inline-block">
           THE BIG IDEA
         </p>
       </div>

@@ -9,9 +9,9 @@ const Navbar = ({ theme, settheme }) => {
     <div className="w-[100%]  pt-2  flex items-center justify-between">
       <Link to={"/"}>
         {theme === "light" ? (
-          <img src={bmagBlacklogo} className="sm:w-44 sm:h-[44] w-36 pt-5 pl-[10px]" alt="bmag logo" />
+          <img src={bmagBlacklogo} className="aspect-[15/6] sm:w-44 sm:h-[44] w-36 pt-5 pl-[10px]" alt="bmag logo" />
         ) : (
-          <img src={bmagwhitelogo} className="sm:w-44 sm:h-[44] w-36" alt="bmag logo" />
+          <img src={bmagwhitelogo} className="aspect-[15/7] sm:w-44 sm:h-[44] w-36" alt="bmag logo" />
         )}
       </Link>
       <Darkmode theme={theme} settheme={settheme} />
