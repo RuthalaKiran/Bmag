@@ -92,7 +92,7 @@ const Footer = () => {
         </div>
         <div className="right-part  flex flex-col items-start gap-2">
           <p className="copyrights dark:text-gray-200 text-[14px]">
-            Copyright © 2018 • Lift Media Inc.
+            Copyright © 2025 • Lift Media Inc.
           </p>
           <div className="flex flex-col gap-2">
             <div className="address flex items-center gap-2">
