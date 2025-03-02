@@ -92,7 +92,7 @@ const Footer = () => {
         </div>
         <div className="right-part  flex flex-col items-start gap-2">
           <p className="copyrights dark:text-gray-200 text-[14px]">
-            Copyright © 2025 • Lift Media Inc.
+            Copyright © 2025 • Bmag productions.
           </p>
           <div className="flex flex-col gap-2">
             <div className="address flex items-center gap-2">
@@ -198,7 +198,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="copyrights md:hidden flex items-center justify-end pt-5">
-        <p className="dark:text-gray-200">Copyright © 2025 • Lift Media Inc.</p>
+        <p className="dark:text-gray-200">Copyright © 2025 • Bmag productions.</p>
       </div>
     </div>
   );
