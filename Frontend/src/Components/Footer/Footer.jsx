@@ -198,7 +198,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="copyrights md:hidden flex items-center justify-end pt-5">
-        <p className="dark:text-gray-200">Copyright © 2018 • Lift Media Inc.</p>
+        <p className="dark:text-gray-200">Copyright © 2025 • Lift Media Inc.</p>
       </div>
     </div>
   );
